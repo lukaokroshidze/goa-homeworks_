@@ -1,29 +1,35 @@
-name = input("luka: ")
-surname = input("okroshidze: ")
+# მომხმარებლისგან ვიღებთ ინფორმაციას
+name = input("შეიყვანეთ სახელი: ")
+surname = input("შეიყვანეთ გვარი: ")
+
+# კონკატინაცია
 full_name = name + " " + surname
-print("luka okroshidze:", )
 
+# შედეგის გამოსაჩენად
+print("სრული სახელი:", full_name)
 
-=====================================
+======================]================================
 
-name1 = float(input("10: "))
-name2 = float(input("25: "))
-operation = input( (+, -, *, /, //, **): ")
-                  
+# მომხმარებლისგან ვიღებთ ციფრებს და ოპერაციას
+name1 = float(input("შეიყვანეთ პირველი ციფრი: "))
+name2 = float(input("შეიყვანეთ მეორე ციფრი: "))
+operation = input("შეიყვანეთ ოპერაცია (+, -, //, /, *, **): ")
 
- operation == '+':
+# ოპერაციის შესრულება
+ operation == "+":
     result = name1 + name2
- operation == '-':
+ operation == "-":
     result = name1 - name2
- operation == '*':
-    result = name1 * name2
- operation == '/':
-    result = name1 / name2
- operation == '//':
+ operation == "//":
     result = name1 // name2
- operation == '**':
+ operation == "/":
+    result = name1 / name2
+ operation == "*":
+    result = name1 * name2
+ operation == "**":
     result = name1 ** name2
-:
-    result = "არასწორი ოპერატორი"
+else:
+    result = "არასწორი ოპერაცია"
 
+# შედეგის გამოსაჩენად
 print("შედეგი:", result)
