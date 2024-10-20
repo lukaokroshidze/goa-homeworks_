@@ -62,7 +62,7 @@ digit1 = number // 10  # პირველი ციფრი
 digit2 = number % 10   # მეორე ციფრი
 digit_sum = digit1 + digit2
 
-print(f"ციფრების ჯამი არის: {digit_sum}")
+print("ციფრების ჯამი არის: {digit_sum}")
 
 
 
